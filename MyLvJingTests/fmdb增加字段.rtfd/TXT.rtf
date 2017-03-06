@@ -1,0 +1,101 @@
+{\rtf1\ansi\ansicpg936\cocoartf1343\cocoasubrtf140
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fnil\fcharset134 STSongti-SC-Regular;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red73\green0\blue0;\red0\green0\blue0;\red0\green0\blue233;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid301\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\f0\fs36 \cf2 {\listtext	1.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 //
+\f1 \'c5\'d0\'b6\'cf\'d7\'d6\'b6\'ce\'ca\'c7\'b7\'f1\'b4\'e6\'d4\'da
+\f0 \'a0\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0if\'a0([self.db\'a0columnExists:kScanCardPath\'a0inTableWithName:TABLE_CARD])\'a0\{\'a0\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0NSString\'a0*update\'a0=\'a0[NSString\'a0stringWithFormat:@"UPDATE\'a0%@\'a0SET\'a0%@=?\'a0WHERE\'a0%@\'a0=\'a0'%@'",TABLE_CARD,kScanCardPath,kLiuDuID,liuduid];\'a0\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[self.db\'a0executeUpdate:update,path];\'a0\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}else\{\'a0\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0NSString\'a0*sql\'a0=\'a0[NSString\'a0stringWithFormat:@"ALTER\'a0TABLE\'a0%@\'a0ADD\'a0%@\'a0text",TABLE_CARD,kScanCardPath];\'a0\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	7.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[self.db\'a0executeUpdate:sql];\'a0\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	8.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0NSString\'a0*update\'a0=\'a0[NSString\'a0stringWithFormat:@"UPDATE\'a0%@\'a0SET\'a0%@=?\'a0WHERE\'a0%@\'a0=\'a0'%@'",TABLE_CARD,kScanCardPath,kLiuDuID,liuduid];\'a0\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	9.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0[self.db\'a0executeUpdate:update,path];\'a0\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	10.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}\'a0\'a0\
+\pard\pardeftab720\sa240
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\
+\pard\pardeftab720
+
+\b \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 [objc]
+\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0  {\field{\*\fldinst{HYPERLINK "http://blog.csdn.net/wxw55/article/details/41282281#"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec4 view plaincopy}}{\field{\*\fldinst{HYPERLINK "https://code.csdn.net/snippets/525288"}}{\fldrslt \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 }}{\field{\*\fldinst{HYPERLINK "https://code.csdn.net/snippets/525288/fork"}}{\fldrslt \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 \
+}}\pard\pardeftab720
+\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 kScanCardPath
+\f1 \'a3\'ac
+\f0 kLiuDuID<span\'a0style="font-family:\'a0Arial,\'a0Helvetica,\'a0sans-serif;\'a0background-color:\'a0rgb(255,\'a0255,\'a0255);">
+\f1 \'ca\'c7\'d7\'d6\'b6\'ce\'b5\'c4\'ba\'ea\'b6\'a8\'d2\'e5
+\f0 </span>\'a0\'a0\
+\pard\pardeftab720
+
+\f2 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\pard\pardeftab720
+
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 [objc]
+\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0  {\field{\*\fldinst{HYPERLINK "http://blog.csdn.net/wxw55/article/details/41282281#"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec4 view plaincopy}}{\field{\*\fldinst{HYPERLINK "https://code.csdn.net/snippets/525288"}}{\fldrslt \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 }}{\field{\*\fldinst{HYPERLINK "https://code.csdn.net/snippets/525288/fork"}}{\fldrslt \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+}}\pard\pardeftab720
+\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 TABLE_CARD<span\'a0style="font-family:\'a0Arial,\'a0Helvetica,\'a0sans-serif;\'a0background-color:\'a0rgb(255,\'a0255,\'a0255);">
+\f1 \'ca\'c7\'b1\'ed\'c3\'fb\'b5\'c4\'ba\'ea\'b6\'a8\'d2\'e5
+\f0 </span>\'a0\'a0\
+\pard\pardeftab720
+
+\f2 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\pard\pardeftab720
+
+\f0\b \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 [objc]
+\b0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0  {\field{\*\fldinst{HYPERLINK "http://blog.csdn.net/wxw55/article/details/41282281#"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul \outl0\strokewidth0 \strokec4 view plaincopy}}{\field{\*\fldinst{HYPERLINK "https://code.csdn.net/snippets/525288"}}{\fldrslt \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 }}{\field{\*\fldinst{HYPERLINK "https://code.csdn.net/snippets/525288/fork"}}{\fldrslt \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+}}\pard\pardeftab720
+\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls4\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}
+\f1 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'d7\'a2\'d2\'e2\'a3\'ba\'d0\'e8\'b0\'fc\'ba\'ac\'cd\'b7\'ce\'c4\'bc\'fe
+\f0 #import"FMDatabaseAdditions.h"\'a0\'a0\
+}
